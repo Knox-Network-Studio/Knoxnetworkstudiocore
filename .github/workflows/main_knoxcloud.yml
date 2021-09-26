@@ -54,4 +54,4 @@ jobs:
         app-name: 'knoxcloud'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_d3a4292efc434338af7cbcbef5eed3aa }}
-        package: .
+        package: github/workflows/5.0_install_doc_update_knoxcloud(knoxnetworkstudio).yml
